@@ -21,7 +21,7 @@ data = pd.read_csv("Thresholds/thresholds.csv",usecols=truncateColumns)
 
 for column in truncateColumns:
     print(column)
-    data[column] = data[column].astype(str).str.replace(r'^[0-3]{1}$',placeholder)
+    data[column] = data[column].astype(str).str.replace(r'^[0-'+str(threshold)+']{1}$',placeholder)
 
 
 print(data)

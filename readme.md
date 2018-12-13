@@ -8,3 +8,5 @@ shuffleCSV.py - A script to strip the ID column of a file, shufle the rows and r
 
 Validator/Validator.py - A script that uses the cutplace module to validate CSV files. The script has the ability to scan through a directory of incoming files.
 
+Thresholds/Thresholds.py - scans a file and ensures values are truncated to aceptable values, to minimise the risk of identification.
+
