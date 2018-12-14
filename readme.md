@@ -10,6 +10,5 @@ Validator/Validator.py - A script that uses the cutplace module to validate CSV 
 
 Thresholds/Thresholds.py - scans a file and ensures values are truncated to aceptable values, to minimise the risk of identification.
 
-Converters - Scans a converts a entire directory of files to one format to another, supported formats; 
-    * DTA to CSV - STATA to CSV.
+Converters - Scans a converts a entire directory of files to one format to another, supported formats (DTA to CSV - STATA to CSV,more to come)
 
